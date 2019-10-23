@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Yuriy Burkut homework</string>
+    <string name="edited_text">You didn\'t text anything yet</string>
+    <string name="add_text">Add Text</string>
+    <string name="add_photo">Add photo</string>
+    <string name="send_email">Send to email</string>
+    <string name="crash_app">Crash application</string>
+    <string name="clear_all">Clear all</string>
+    <string name="save_and_return">Save and return</string>
+</resources>

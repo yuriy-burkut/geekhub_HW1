@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "548603893349",
+    "firebase_url": "https://geekhubhw1.firebaseio.com",
+    "project_id": "geekhubhw1",
+    "storage_bucket": "geekhubhw1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548603893349:android:288ac0155e82fd95ba988c",
+        "android_client_info": {
+          "package_name": "com.yuriy.geekhub_hw1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548603893349-bt8udf5pnl3i4f2cpgfr4nelsp7akato.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNH6PyFSVSsS28wStMBeXplcRt58gwExw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548603893349-bt8udf5pnl3i4f2cpgfr4nelsp7akato.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
