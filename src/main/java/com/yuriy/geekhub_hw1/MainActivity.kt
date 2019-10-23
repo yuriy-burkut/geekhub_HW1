@@ -71,7 +71,8 @@ class MainActivity : AppCompatActivity() {
         val sendIntent = Intent(Intent.ACTION_SENDTO)
         sendIntent.data = Uri.parse("mailto:")
         sendIntent.putExtra(Intent.EXTRA_TEXT, text_preview.text)
-        sendIntent.putExtra(Intent.EXTRA_STREAM, imageUri)
+        if (imageUri != Uri.EMPTY)
+            sendIntent.putExtra(Intent.EXTRA_STREAM, imageUri)
 
         if (sendIntent.resolveActivity(packageManager) != null) {
             startActivity(sendIntent)
